@@ -1,0 +1,113 @@
+#head{
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#head #name{
+    font-weight: bold;
+    font-size: 40px;
+    width: 300px;
+    margin-right: 70px;
+}
+#head #links{
+    padding: 15px;
+    padding-left: 0px;
+}
+#text,a{
+    margin-right: 70px;
+}
+#links a{
+    color: grey;
+}
+#links a:hover{
+    color: black;
+    text-decoration: none;
+}
+@media (max-width: 749px)
+{
+    #head{
+        display: none;
+    }
+}
+@media (min-width: 750px)
+{
+    #phone{
+        display: none;
+    }
+}
+#phone{
+    padding-top: 20px;
+    width: 100%;
+}
+#phone .big{
+
+    padding: 30px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+}
+
+#phone .menus #menu ul{
+    display: none;
+    list-style: none;
+    background-color: black;
+}
+
+#phone .menus #menu ul li a,#phone .menus #menu span{
+    color: grey;
+}
+#phone .menus #menu ul li a:link{
+    text-decoration: none;
+}
+#phone .menus #menu ul li a:hover{
+color: darkgrey;
+}
+#phone .menus #menu ul li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#phone .menus #menu:hover > ul{
+    display: block;
+}
+.menus{text-align: center;}
+
+
+
+#body{
+    padding: 30px;
+    width: 100%;
+}
+#body .paragraph,#body ul{
+    color: grey;
+}
+@media (min-width: 1100px)
+{
+    #body .paragraph{
+        width: 1000px;
+    }
+}
+@media (max-width: 1099px)
+{
+    #body .paragraph{
+        width: 100%;
+    }
+}
+.table td{
+    border: 2px solid black;
+    text-align: center;
+}
+.table .head{
+font-weight: bold;
+}
+.table .head{
+    background-color: gray;
+}
+.table .selected{
+    background-color: orange;
+}
+table{
+    border-collapse: collapse;
+    border: 2px solid black;
+}
